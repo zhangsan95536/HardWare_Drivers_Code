@@ -1,0 +1,3 @@
+在Options for Target--c/c++的Misc Controls添加以下内容：
+（complier5需要）
+--no_multibyte_chars

@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProjectOpt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_optx.xsd">
+
+  <SchemaVersion>1.0</SchemaVersion>
+
+  <Header>### uVision Project, (C) Keil Software</Header>
+
+  <Extensions>
+    <cExt>*.c</cExt>
+    <aExt>*.s*; *.src; *.a*</aExt>
+    <oExt>*.obj; *.o</oExt>
+    <lExt>*.lib</lExt>
+    <tExt>*.txt; *.h; *.inc</tExt>
+    <pExt>*.plm</pExt>
+    <CppX>*.cpp</CppX>
+    <nMigrate>0</nMigrate>
+  </Extensions>
+
+  <DaveTm>
+    <dwLowDateTime>0</dwLowDateTime>
+    <dwHighDateTime>0</dwHighDateTime>
+  </DaveTm>
+
+  <Target>
+    <TargetName>Target 1</TargetName>
+    <ToolsetNumber>0x4</ToolsetNumber>
+    <ToolsetName>ARM-ADS</ToolsetName>
+    <TargetOption>
+      <CLKADS>12000000</CLKADS>
+      <OPTTT>
+        <gFlags>1</gFlags>
+        <BeepAtEnd>1</BeepAtEnd>
+        <RunSim>0</RunSim>
+        <RunTarget>1</RunTarget>
+        <RunAbUc>0</RunAbUc>
+      </OPTTT>
+      <OPTHX>
+        <HexSelection>1</HexSelection>
+        <FlashByte>65535</FlashByte>
+        <HexRangeLowAddress>0</HexRangeLowAddress>
+        <HexRangeHighAddress>0</HexRangeHighAddress>
+        <HexOffset>0</HexOffset>
+      </OPTHX>
+      <OPTLEX>
+        <PageWidth>79</PageWidth>
+        <PageLength>66</PageLength>
+        <TabStop>8</TabStop>
+        <ListingPath>.\Listings\</ListingPath>
+      </OPTLEX>
+      <ListingPage>
+        <CreateCListing>1</CreateCListing>
+        <CreateAListing>1</CreateAListing>
+        <CreateLListing>1</CreateLListing>
+        <CreateIListing>0</CreateIListing>
+        <AsmCond>1</AsmCond>
+        <AsmSymb>1</AsmSymb>
+        <AsmXref>0</AsmXref>
+        <CCond>1</CCond>
+        <CCode>0</CCode>
+        <CListInc>0</CListInc>
+        <CSymb>0</CSymb>
+        <LinkerCodeListing>0</LinkerCodeListing>
+      </ListingPage>
+      <OPTXL>
+        <LMap>1</LMap>
+        <LComments>1</LComments>
+        <LGenerateSymbols>1</LGenerateSymbols>
+        <LLibSym>1</LLibSym>
+        <LLines>1</LLines>
+        <LLocSym>1</LLocSym>
+        <LPubSym>1</LPubSym>
+        <LXref>0</LXref>
+        <LExpSel>0</LExpSel>
+      </OPTXL>
+      <OPTFL>
+        <tvExp>1</tvExp>
+        <tvExpOptDlg>0</tvExpOptDlg>
+        <IsCurrentTarget>1</IsCurrentTarget>
+      </OPTFL>
+      <CpuCode>18</CpuCode>
+      <DebugOpt>
+        <uSim>0</uSim>
+        <uTrg>1</uTrg>
+        <sLdApp>1</sLdApp>
+        <sGomain>1</sGomain>
+        <sRbreak>1</sRbreak>
+        <sRwatch>1</sRwatch>
+        <sRmem>1</sRmem>
+        <sRfunc>1</sRfunc>
+        <sRbox>1</sRbox>
+        <tLdApp>1</tLdApp>
+        <tGomain>1</tGomain>
+        <tRbreak>1</tRbreak>
+        <tRwatch>1</tRwatch>
+        <tRmem>1</tRmem>
+        <tRfunc>0</tRfunc>
+        <tRbox>1</tRbox>
+        <tRtrace>1</tRtrace>
+        <sRSysVw>1</sRSysVw>
+        <tRSysVw>1</tRSysVw>
+        <sRunDeb>0</sRunDeb>
+        <sLrtime>0</sLrtime>
+        <bEvRecOn>1</bEvRecOn>
+        <nTsel>5</nTsel>
+        <sDll></sDll>
+        <sDllPa></sDllPa>
+        <sDlgDll></sDlgDll>
+        <sDlgPa></sDlgPa>
+        <sIfile></sIfile>
+        <tDll></tDll>
+        <tDllPa></tDllPa>
+        <tDlgDll></tDlgDll>
+        <tDlgPa></tDlgPa>
+        <tIfile></tIfile>
+        <pMon>STLink\ST-LINKIII-KEIL_SWO.dll</pMon>
+      </DebugOpt>
+      <TargetDriverDllRegistry>
+        <SetRegEntry>
+          <Number>0</Number>
+          <Key>ARMRTXEVENTFLAGS</Key>
+          <Name>-L70 -Z18 -C0 -M0 -T1</Name>
+        </SetRegEntry>
+        <SetRegEntry>
+          <Number>0</Number>
+          <Key>DLGTARM</Key>
+          <Name>(1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)</Name>
+        </SetRegEntry>
+        <SetRegEntry>
+          <Number>0</Number>
+          <Key>ARMDBGFLAGS</Key>
+          <Name></Name>
+        </SetRegEntry>
+        <SetRegEntry>
+          <Number>0</Number>
+          <Key>DLGUARM</Key>
+          <Name>(105=-1,-1,-1,-1,0)</Name>
+        </SetRegEntry>
+        <SetRegEntry>
+          <Number>0</Number>
+          <Key>ST-LINKIII-KEIL_SWO</Key>
+          <Name>-U2 -O206 -SF4000 -C0 -A0 -I0 -HNlocalhost -HP7184 -P2 -N00("ARM CoreSight SW-DP") -D00(1BA01477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO15 -FD20000000 -FC1000 -FN1 -FF0STM32F10x_128.FLM -FS08000000 -FL020000 -FP0($$Device:STM32F103C8$Flash\STM32F10x_128.FLM)</Name>
+        </SetRegEntry>
+        <SetRegEntry>
+          <Number>0</Number>
+          <Key>UL2CM3</Key>
+          <Name>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN1 -FF0STM32F10x_128 -FS08000000 -FL020000 -FP0($$Device:STM32F103C8$Flash\STM32F10x_128.FLM))</Name>
+        </SetRegEntry>
+      </TargetDriverDllRegistry>
+      <Breakpoint/>
+      <Tracepoint>
+        <THDelay>0</THDelay>
+      </Tracepoint>
+      <DebugFlag>
+        <trace>0</trace>
+        <periodic>1</periodic>
+        <aLwin>1</aLwin>
+        <aCover>0</aCover>
+        <aSer1>0</aSer1>
+        <aSer2>0</aSer2>
+        <aPa>0</aPa>
+        <viewmode>1</viewmode>
+        <vrSel>0</vrSel>
+        <aSym>0</aSym>
+        <aTbox>0</aTbox>
+        <AscS1>0</AscS1>
+        <AscS2>0</AscS2>
+        <AscS3>0</AscS3>
+        <aSer3>0</aSer3>
+        <eProf>0</eProf>
+        <aLa>0</aLa>
+        <aPa1>0</aPa1>
+        <AscS4>0</AscS4>
+        <aSer4>0</aSer4>
+        <StkLoc>0</StkLoc>
+        <TrcWin>0</TrcWin>
+        <newCpu>0</newCpu>
+        <uProt>0</uProt>
+      </DebugFlag>
+      <LintExecutable></LintExecutable>
+      <LintConfigFile></LintConfigFile>
+      <bLintAuto>0</bLintAuto>
+      <bAutoGenD>0</bAutoGenD>
+      <LntExFlags>0</LntExFlags>
+      <pMisraName></pMisraName>
+      <pszMrule></pszMrule>
+      <pSingCmds></pSingCmds>
+      <pMultCmds></pMultCmds>
+      <pMisraNamep></pMisraNamep>
+      <pszMrulep></pszMrulep>
+      <pSingCmdsp></pSingCmdsp>
+      <pMultCmdsp></pMultCmdsp>
+      <DebugDescription>
+        <Enable>1</Enable>
+        <EnableLog>0</EnableLog>
+        <Protocol>2</Protocol>
+        <DbgClock>10000000</DbgClock>
+      </DebugDescription>
+    </TargetOption>
+  </Target>
+
+  <Group>
+    <GroupName>Start</GroupName>
+    <tvExp>0</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <RteFlg>0</RteFlg>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>1</FileNumber>
+      <FileType>2</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Start\startup_stm32f10x_md.s</PathWithFileName>
+      <FilenameWithoutPath>startup_stm32f10x_md.s</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>2</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Start\core_cm3.c</PathWithFileName>
+      <FilenameWithoutPath>core_cm3.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>3</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Start\core_cm3.h</PathWithFileName>
+      <FilenameWithoutPath>core_cm3.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>4</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Start\stm32f10x.h</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>5</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Start\system_stm32f10x.c</PathWithFileName>
+      <FilenameWithoutPath>system_stm32f10x.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>6</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Start\system_stm32f10x.h</PathWithFileName>
+      <FilenameWithoutPath>system_stm32f10x.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+  </Group>
+
+  <Group>
+    <GroupName>Library</GroupName>
+    <tvExp>0</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <RteFlg>0</RteFlg>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>7</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\misc.c</PathWithFileName>
+      <FilenameWithoutPath>misc.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>8</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\misc.h</PathWithFileName>
+      <FilenameWithoutPath>misc.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>9</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_adc.c</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_adc.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>10</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_adc.h</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_adc.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>11</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_bkp.c</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_bkp.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>12</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_bkp.h</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_bkp.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>13</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_can.c</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_can.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>14</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_can.h</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_can.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>15</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_cec.c</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_cec.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>16</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_cec.h</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_cec.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>17</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_crc.c</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_crc.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>18</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_crc.h</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_crc.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>19</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_dac.c</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_dac.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>20</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_dac.h</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_dac.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>21</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_dbgmcu.c</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_dbgmcu.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>22</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_dbgmcu.h</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_dbgmcu.h</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>23</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Library\stm32f10x_dma.c</PathWithFileName>
+      <FilenameWithoutPath>stm32f10x_dma.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>24</FileNumber>
+      <FileDype>5</FileType>
+(     <tvxp>0<?tvExq>
+      ¼tvExpOptdlg>0</töExpOptDlg>
+      <bDavu2>0<+bDaver>
+0     |PmthWidlNileName>.\LiBrary\stm32f10x_dma.h</Pat(WithFiLeNa-e>
+      <FidenameWithoutPath>stm32f10x_d}a.h</FilenameWithoutPath>
+"     <RteFlg<0</RteVlg>
+      ¼"ÓhaRed>0</bQhezed>
+    |/File6
+   <F)le>
+    * <GroupNumber>2</Gro5pNumbev>J      Fil%Number>2</FileNumber>
+ "    °ÆiluType>1>/FileDype
+ (    <tvÅxp>0</tvExp>
+    ! <tvExtO`tLlg>0<?tvExpOptDlg>
+      <bDave2>0</bDaVe2>
+      <PatlWithFileNamE¾.\Lijrary\ótm32f10x_e}ti.c</PavhWéthFileNaie~  !0  =Fi|en!ieWmthoqtPalh>ctm32f14x_exti.c</FilenameGithgutHath>
+ " !"(<RtgFLg>0</RteFlg>
+ `    <bShared>0</rShared>
+    </Filg>
+ `  4File:
+ 08   <GroupNumber>2</GsoupNumber>
+      <FiheNumber>26</Filen}mBer>
+    ` <FileUype>5</FileDype>
+ 0    <tvExp>0</tvExp>
+    ` <tvÅxpOptDdg>0</tvxpOptDl'>
+  $   <bDeve268</bDave2>
+0!    <@qthWithvileName>.\L)brary\spm32f000_Mxti.h4/PathGathFileName:
+      ¼Fil%naleSitjoutPath>stm12f!0x_extiîi8/FilefameWi|houtPath>J" $   <RtuFlg>0</BteFlg>
+      <bShaRed>0</bShared>
+    </File>Š    <Fmle>
+   0  <GroupNumbep>2</GroupNumber>
+      <FileNumbwr>27</VileÎumber.
+      <FileType>1</NileTyxe>
+   (  <tvEzp>0</|vExp>
+      <uVExpOptDlg>0</tvExrOpðDlg>
+    `(<bDave2>0</bDave2>
+`  (  <PathWiôhFileName>.\LibrapyT{tm32f10x_&laól/c</PaThWitèFi,eName>
+$     <FilenameWithouTPauh>stm#2n10x_fnash.£</Féleîame×ithoutPath>
+      <RteFlg>0</RteFlg>
+      <fShergd>0<¯bSháred6
+0(0 <¯File>
+   08ilu>
+     <GroupNtmâer>24/GroupNu}ber>
+      <FileNumber>:8<nF)leNu}ber>      <FilåType>58VileType>
+      <t~Exp>08/tvDxp>      <VvExpOðtLlg>0</pvUxtOptDlg>
+(     <bÄate2>0</bDave">
+"     >PitiWithFkmeNam%>/\Li`rary\stm32f10x_flaóh.h</XathW!txFileLame?
+  0   <FilenameWithoõtPath>stm32f10x_flash.h8/FilenameWithoutRath>
+    ! <RtåFlg>0>/RteFlg>
+   $ "<bsha2õd>4<¯hSxaòed    </File6
+`   <File>
+      <GroupNumber>2</OroupNumbes>
+ ` "  <NileNumber>29|/FileNwmber>J      <FileType>1<FileTyqu>
+      <tvEùp>0</tvExp>
+ $0   <tvExpOptDlg60</tvExpOptDlg>Š    ) bDave2>0</bLave2>
+    ` PathWithFilåName>.\Library\ste;2F10x_fSec.c</PathWiôjFiMeLime6
+      |FilenamesythïutPath>stm32f10x_æsmC.c</fileNameGithoutPatl>
+    0 <RteFlg>0<.RpeFlg>
+      >bSh`red>0</bShared>
+    </File>
+    <Fi|e>
+"  (  <ÇroupÎumber>2</GroupNumbep>
+      <FileNumbar<#</FileNumBer>
+      <FileType>5</FileTyte>
+    0 <vvExp>0</twExp>
+ !    <\vEtrOQdDlg>0</tvExpOptDlg>      <bDave2>0=/bDawe06
+     (=PathWéthFileName>.\Li"z!ry\stm32f10x_fsmc.h</PathWithFileNamE¾
+    " =FkmenamaWathoutPath<3tm32f10x_fsíc.h<+VilenameWith/utPath>
+      ¼RteDìg60</RteFlc>
+      <bShared.0</bChar%d>
+(   </Fila>
+ (  <Fmld6
+"    "<GroupNumber>2,/GboupNumber>
+      4VileNumfer>31</FileNumbev>
+0     <filetype>1<FileType>
+      <tvExð>0</tvEXp>
+     0<tvGxtOPtDlg>0</tvExrOptDlg>
+      ¼baöe0>°<+jDave2>
+      <PathWithFileNamd>.]Mkrrary\sdo32f10xgpio.c<opath_itiNhleNale>
+      <FilenameWithoutPath>sT}32f10x_gpio.c</FilenameithoutPeth>
+   @  <RteFlg>0<?RteFlg>
+      <cShared>0</bSlaved?
+    </File>
+    8File>     ¢<GroupNembez>2</ÇroupNumber>
+`  (` <FileNumber>32</FilmNuebeò>
+      <FileType>5</FileType¾
+ `¡   <tvExp>0</tvExp>
+   (  <tvExpOp|Dlg>0</pvExpOptDlg>
+!     ,bDave2:0</bDafe2>
+   $  <PathWithFileName>.\Library\s4m32f108gpio.h</PathWithFileName>
+ (   $|FileNameWithoutPavh>stm3:f10x_gpio.h<FilencmeWithout@ath>
+      <RteDle>0</RttFlg6
+   `  <bShared>0</bShased>
+  ` <'File6
+    <File>
+      <groupNumber>"/GroupNtmber
+    ! <FimeNumâer>33<'FilgLuíbgr>
+`     >Finå\}pe>1</File\ype>
+     `<tvExp.8</tvExp>
+ "    <tvE8pOrtÄlg>0</t6ExpOptDLg>
+   !  <bDave6>0<¯bDave2> (!"  <PathWithfillName>®\LiârabyXstm32f12x_i2c.s<'Paph_ithFileName>Š !    <FilafameWithoutPathstm32f10x_i2c.c|?Fi|ena,eWmt`outPáth>
+      <RteBlg>p</RteFlg>
+!     <bShared:0</bShared>
+    </File>
+    <Æide>
+"     <GroupNumber>2</GrOupNtmber>
+  "   4FiluNuM"er?74>/FileNu}bev>
+      <FkleTyxe>5</FileTyqe>
+      <tvExp60</tvM|p~
+      <tvExpOptÄlg>0<>tvExtOptlg>Šp     <bDave2>0=/bDave2>
+      >Path×ithFileName>.\Li`rarù\stm32f10h_i2c>h</PathWithFileName>
+$0    ,Fil%namåWithoutPavh>stm72f10x_i2c.h</FilunaeeWithoutPath>
+$(`   <RteFlg>0</RtEFhg>Š      <bShared>0,-bShargd>
+p 2 >/Gim%>
+ !  <File>
+      <GrïuðNumber>2</G2oupNumjer>
+   #  <FileNumber>³5</FileNumber>
+ !    <FmleT|pe>1</)deype>  `   <tvEx`>0</t6exp>
+      <tvExpOptDlo>0</tvxpOptÄlg>
+      <bDa6e2> </bDate6>
+      <XathWithFileName>.\Libsaòy\stm2rf10x_iwdg.c</PatlWItjFileNale>
+      <VilenemeWithoutPath>s|ms2f10x_iwdg.c>/FilenameWith/utPath>
+   "  <RtEFlç60</RteFlg<
+   ¨ 0<bShared>0</bShared>H    </Fiìe>
+  0 =File>      <GroupÎ}mbeò>2<oGrïupNumbeb>
+      <ÆileNumber>32</F)leNumber>
+ (    <FyleType¾5œoFileTyðe>
+ $    <tvExp>0</tvExp>
+      <|vExpMpTDìg>0</tvExpGptDlg>
+      <ÂDave2<0</fDcve2>
+      <PathWithFildName:.\Libréry\stm0f12x_kwdg.h</TathWithFylename>
+ ¡    <FilenameWitèïutPath¾stm32f50x_iwdgh>/DilåîameWyuèouvPatx>
+      <RtmFlg>0/RteFlg>
+    $`<bShared>0</fSharmd>  0 </Fale>
+  $ <Film>      <GroupNu}bes>0</ErowrNuobår>
+      <FileNqmber.37<.File^umbev>
+      >FileTXpe>1<¯FileType>
+      <tvExp>0</tvExÐ>
+      <ttExpOptDlg>0</dvExpOptDnç>     $8bDave0>0</bDave2>
+      <PathWathFiìeName>.\Lic2azy\stm32f14x_pwr.c<¯PathWIthFileNamm>
+      <Filenam%VithoutPáth>stm32f0x_pr.c</FilenaMeWithmuvPath®
+      <RTeFle>0</VueFlg>
+   (  <bShared>0</bShaReD>
+    <.Vi|e>
+    <File>* (    <GroupNu}ber¾0<oÇro5pNumber?
+      |DileÎum`er>388/FileNuober>
+  "   <FileDyp%>54/FileTxpe>
+     "<|vExp60</tvEøp>
+  0   <tvExpOptDlg>0</tvExpo`tDìg>
+      <bDaöe2> </bDavm2>
+     04PcthWithFhleName>/\Labrary\svm³2f10xÿpwr.h<-PathWiuhFilaName>     $<FidenameGithutPath>qtm32d10x_pwr.h</Filenam%WithoõtPith>
+    $ <Rteflg>0<.BteFlg?
+      <bShared>0</bShareà>
+    </File~
+    <Æile>
+!0    <GroupNumjuz></Ç2oupNumber?
+      <FileNumbes>39</FmleNumbev?
+   "  <ÆileType<1</ÆileType>
+      4tvExp0</tvExp>
+      <tvExpOptDlg0</tvExpoðtDlç>
+    " <bDavd2>0</bDave2>
+     $<PathWithFileNaoe:.^Librasy\ótm32f1pz_rck.c</PathWithFileName>
+$     ¼FilenAmeiuhoetPath>st}32f10x_pcc.c</Fine~ameWit`gutath>
+      =RdEGlg>0</RteFlg>
+      jÓharel:0</bShared.
+  ` </Fhlc>
+    <File>
+ ! $ ,<GroupNumber>2,Grou0Fu-b%r>      <FileNumber>40='FileNumber>
+      <VileType>µ</FyLdType>
+ !    <tzExp>04/tvE8`>
+      <tvExpOptElg>0/tvExpOptDlg>
+    " <bDave2>0</bDave2>
+      <PathWiThFilgName>.\ibraryTstm3rf10x_bcc.h</PathÕithFIleFamg>
+      <FilenamESithoutPetl>stm32f10x_rccnh</FilenaeeWi|hoõtPath>
+      <RteF|g>°</RteFlg>
+    ` tbShared>8œ/bShar%d>
+    </File>
+  $"|File>
+   0  <Grou`Oum"er>2<Grou`Number>
+      <FilmNum`er41</NiluÎumâer>
+      <FileTyp%>1<ïWile\yre>
+      <tvExp>0</twExp>
+   #  ´tvExpOptDlg>0<'tvEypMptDlg:
+      <bDaVe2>0</bDave0>
+`     <PáthWitjFéle^ame>.\Lkb2ary\stm³2f1pxrvc>c</PathWéthFileName>
+" " 0 FilenameWithwôtPath>wtm32d10x_rtc.c<?BilenameWithoutPath>
+    "$<RteFmg>°</RteFlg>
+      ¼fQhaòed>0/bSHared>
+    </Film>    <File>
+    d 8GroupN5mbEr>2</GrourNu-ber>*"     <FiHeFumb%r>42<'FkleNumber¾
+      <FiìeType:5</FileVype:
+     0<tvExp>0</v6Exp>
+ " "( <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDh6e2>
+(     <P!4hWithFileName<.\Librav8\stm32f10x[rtc.j</PathWithFileNa}e>
+      <FileîameWithoQtPaTh6stm32f10x_ruc.h</Fil%nameWit(µtPáth>*    ` <RteFmG>0</RteFlw>
+`     <bShAred>0</bSharet>
+    </File>* " 0<File>
+    ( ÅroupNumâer~2</CroupNumber>
+0     <FileNumber?43</FileFõmber>
+      <FiletypE>1<oFiLeType>
+      <lvExp>0</tvExp>
+      <trEx0OptDLg>0|/tvExpNptDmg>
+  "   <bDate2>0</`Dave6>
+      <PithWithFileN!me>.\Mybrary\sdm32f10x_sdiï.c</PathWithFideNaee>
+"     <FilenaMeWithoutPath>stm32f10x_sdio.c</FilenameVithoutpith>      <RteFlg> </RtgFlg>
+  !   <bShered>0</bShared>
+    ´¯G)|e?
+  `b¼File>
+      <GvoUpLumber>2</OrouPNumber>
+      <FileÎuiber?44</FileNuìrer>
+"     FileType~5<-FiLmType>
+      <t~Gx0~0</tvExp>
+"     <tvAxpOptDlç¾2</tvExðOptDlg>
+ 0   `=bD`vu2>8</cTave6>
+  0  <XathWithFileName>/\LibraryLstm³2f1°x_sdio.h=/TatxWithFi|eName>
+b    (<FilenameWithotuPqth>stm76d10x_sdio.h</F)lenAmeWiôhoutPeth6
+      <RtEF|g>0</RpeÇLg>
+    ` <bShared=0<-bShAred>
+    </File>
+    <Fil%>
+ 0    <GroupNumbeb>2<¯GroupNu}ber
+  0   <FileNumb%r>44</FileNugber>
+      <NileTyPe>1</FileType>      <tvExp>0¼/tvExp>
+      <tvExpOpdDle>0</tvExpOptDng>
+      <bDav%2<1</bDava2~
+      <PathWithFileName>.\Ìmbrary\sto72f108spi.a¼/PathWathFéleName>
+ 0 €$ <FilenameWithouuRath>stm32f10x_spi.C<oFilenaluGithouuPath>
+ "    <BteFlg>2</RteFlg>
+      ,jÓhred>0</bÓhared>
+    </Fime>
+    <File>
+      <GroupNumber>2</roupNulbgr>
+!`    =F}leFteber>46¼/FileNumber>
+   "  <FileTyp%658/FileType>Š      <tvDxp>0</tvExp>
+0     <tvEppOp4Dlg>0</t6ExpO0tElo>
+      <bDafe2>0</bDaver¾
+0   h <PqthWéthFileNqmm>,LLiBrary\Stm32f11xOspi.h¼/Pa\hWithFyleName>
+  "   <FindjamdwithoutPati>stm32f1px_spi.h</Fil%nameWitHoutPath>J      <RteÆlg¾0|/RtuFlg>
+      ,bShcred>0<¯bSjAred~
+    <'File>
+ $  <F)le>
+    $ <Group^umber>2</CroupÎumber>
+0     |FileNuiber~47|/FkleNumber¾
+  !   <FileType>1</FilePypg6
+   e  <tvExp>2</tvExx>
+      ,tvExpOatÄ,w>0</t¶ExpOptDlg^
+      <bDaVe2>0</bDave2>
+     "<PathWithFileName:.\Libráòy\stí30f10x_tim.b4/PadhWivhFileNaee>
+      <Filen!meWé|houtpati>stm32f1°ü[tIm.c</FilenameUithoutXati>
+      <RteFdg60</RteFlg>
+ b    <bShared>0¼/bShared>
+    </Fil!>
+   °<Fale>
+      4GreðNumber>2</GroUtNumbeb>
+ 0    <FileNumrer>48</NimeNumcdr>
+    ` <ileUyre>5</iìeType6
+      <ôvExt.°</tvExp<
+      <tvExpÏpôEìw>0</tvG8pOptDlg<
+      <bDcve2>0<?bDave2~
+      <PaphWithFameName>.\Library\stm32f10y_tim®h</PathWivhFileName>  0   <FilenamdWithoutPath>s|m32f10x_tho.h</FilenadeWéthoutPath>
+   !  <ÒteFlg>04/RteF|g>
+   (  <bShared>°|/bShaRed>
+    file>
+    <File>
+  8   ¼GroupNumber>2</Cro}pNumber>
+     (<FileNumber>49</FileNumber>
+ $    <FileÔype>1</Filetyre>
+      <tvExp>0</vvExP>
+      <tvExpOptFlg>0</tvEx`OptD,e>
+      <bDave2>0</bDáve2>
+      <Pat`WéthFileName>.\Library\stm32n10ø_usart.c</PathWithDileName>
+      <Fklena­eWiphoutPat*>ste30f10y_usart.k=/FilencmeWidhoutPaôh>
+      <RteFlg>4<RteFlg>
+   $  <cShared>0</b[hazed>
+   (</File>
+    <File>*     #<GroupNumber>2</FzouqNumbar>
+      <FileNueber>50<+FileÎumber>
+$    "<Fh,aTqqu>58/FileType>
+      <tvExp>0</tvDxp>
+      <tvExpOptDlg0<vVxpOptDlg>
+"     <bDave2>0</bdave2?
+$     <P!thWidhGileName>>\Li`rary\sti22f14x_uSart.h8/PathWithFileName>
+ !    <FildnimeWidhoutPath>stm32f10x_usert.h</ÆilenameWithou4Path>
+   $  RteFlg:88/RteFlg>
+      <bShar%d> </bShared>
+0  "</File>
+!   <File>
+ `    <GrotpNuibar>2</GroupNu}beR>
+      <FineNõmb%r>51</FileNUmber>
+      <Fileype>1</FileType<
+    " <tvEjð:0</pvAxp>
+$   ° <t6EypOttDlg>2</tvExpOptDlg>
+      <bDaw%2>0</bDcve2>
+  (   <PathithFileName>.\\ibrary\stm32f10x_wwdg.c</PaôhWithFileNáme>
+      <FilenaeåWithoutath>s4m32f10x_wwdg.c</FilenameWithoutPath>
+   "  <RteFng>0<*RteFdg>
+   !  bSèared>0</rSha2ed>
+    <oFile>
+   0<File>
+   (  <GroupNumfer>2</roupNumbdr>
+      8FileNumbur>52</FineNu}be2>
+      <FilgType>5¼/FileTpe<
+      <tvExp>0</t~Axp>
+    $à<T~ExpOptDlg04/tvExpOptDlg>
+      <bEave2>0</"Lav%2>
+     (<PathWhthDileNamå>.\Lébrary\StM32f10x_wwdo.h</PathWithFileName>
+      <FalefameUithkutPath>3tm32&10x_wwdg.h<'FidenameWithoepPavh>
+      <RteFlw>0</RdeFln>
+      <bShared>0<osShare$>
+    </Fkhe>
+  </Group>
+
+  <Group>
+    <GboupNqme>Sist%m</Frou`Name>
+   $<tvUxp>1</tvExp>
+    4|6ÅxpOptDlg>0</tvExpOptDlg>
+ $  <#rSad>0</cbSel6
+ $  ?R~eGlç>0</RteFlg>
+    <File>
+  0  $4GroupNumber>3</GroupNumber>
+      <FileNumber>53</FileNumer>
+      ¼FileType~1</FileType>
+      t~Exp>0</tvÅxP>
+ $    8tvExpOptDlg>0</tvExpoptDlw?
+      <bDave2¾0</bDave2>
+ (    <PathWithDileNamg>.\Qxstem\Delay.c</PathWithFileName:
+ !    <FilelameWithoutPath>Eelay.c</GilenameWithoutPath>
+   0  <RteFlg>0</Rtelg>      <bS,ared>0</bShaped6    |/FIle>*    |Féle¾
+      <GroupNuiber>3<-GpoupNqMber>
+ (    <FileNUmber>54</FileNumber¾
+   (  <FilmT}pe>5</FileType?
+      =tvExp>0</tvDxp>
+ 0 (  <pvExpOptlg>04-tvEøpOptDlg>
+      <"Dava:>0</bDave2>
+    " <PapiWithFileam%>.\Syst%m\De,Ay.h</PathWiuhFileName>
+      ¼ÆmlelameWithoutPaui>DelAyh</Fine~ameWithoutTath>J      =RteFlg>0</RdeFlg>
+! "   <jPh`ved>0</bShared>
+  " </File6
+  </GRoõp>
+
+  <Gro}p>
+    <WroupName>Hardwara</GroupName>
+    <tvExp>1</t~Exp>
+    <tvExxOptDlg>0</uvExpOpuDlg6
+0 # <câSel>0</cbSel>
+    <S4eÆlg>0</RtmFlg>
+` ! <File>
+      4GroupNumber¾4</GRou0Number>      <File^umber?55</FileNumBer>      ,File\yðe>1</FmleTyp%?
+! "   <ôvExq>1</tvExp>      <tvExpOptDlg>0¼/tvExpOptDlg>
+ $    <bDqve2>0/bDaöe2>
+ "    <Path×mthFileLame>.\Hardware\OLED.c</PathWitèFileName>
+   (  <FilenameWIdhoutPátj>OLd.c,/ileoamuWithoutPath
+      <RtåFlg>0</RteFlg>
+      <bShared>0=/bShaÒed>
+    </File¾
+    <Fine>
+  `   <GroupNumber>´</GroupNum`%r>
+      <FileNumber>5&</FileNumbEs>
+     08FileType>1</ile\yre>
+   0  <tvEXp>0</tvMxp>
+ 0    <tvÅxpKp4lg>0</tvExpOptDlg>
+(     <bDcve2.1</BTave>
+  #   <PaphWithFyleNamd>.\HardwareYOLED.h</PathWithFileName>
+    $(<FilenameWithoutPath?OLED.h</Filena-eWithoutPadh>
+ !    RteFlg>0</ÒtaFng
+ $ "  <bSharmd>0</bSèared.
+    </File>	    <Fi|e>  `!` <GroupNuMber>4<GrouqNumber>*      <FileNumber>57</FileNumber>
+      <FileVype>#</FileTypE:
+      <tVExp>0</tvExp>
+      <tvExpOpTDlg>0</pvExpOptDlg>
+   !  <bD!ve2>0</bDavd2>
+$     <PathithFileF!me>.\Hardw!re\OMED_Data.c</PathWithFileName>
+  `   <FiLenameWithguôP!th>OLE_Data.c</GilenameWitèoetPath>
+      <RteFlg>0</Rteflg>
+   ! 0<bshGrEd>0</bS`aRed>
+`   </File    <File>
+      <GroupNu-ber>44/GrouðNumber>
+      <Fi|eNumber>58</FmlaNumber>
+      <FileType>5<¯FileType>    " <tvExp>0</twExp>
+      <ttExpMptDlg>0>/tvExpOptFlg>
+  "   <bEave2>0</bdave2>
+    ` <PathWithFileName.\Hardware\OLETßData.lPathWithFileN@me>
+   ¤  <FildnameWithoutPáth>OLED_Datanh</FilanameWhthou|Patl
+      <RteFmg>0</RteFlf.
+  "   bShared>0</bShared>
+    </F)le>*  </GrouP?
+
+  <group>
+    <GroupName>User</GroupName>
+    ¼tvExp>1</tvEpp>
+    <tvMzpOptDlg>0</trExpOptDlg>
+    <cbÓel>0</câSel>
+    <teFlg>0</RteFlg>    <file6
+ $0   <CroupNumBer>5</GroupNumber>
+ 0 %  <FileNumber.59</FileNumber>
+      <FileType>1</FklgType>
+ $   !,tVExp>0</tvEx0>
+      <$wExðOqtDlg>0<.tvÅxpOptThg>
+     "<bDave2>0</JDave2>
+    $ <TathWhthFileName>.LUser\main.c</tatxWithFileNaíe>
+      <F)lenamuWithoqtÐat`>main.c</FilenamewithoutPat`>
+      <ÒteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    |'File>
+""  <Fiha>
+    ` <GrupNumber>5</GroupN}ib%r>
+  " 0 <FilmLumbdr<6r</FileNumber>
+      <FIleType>5</FileType<
+      <t6Exp>0</tvExp>
+   (  8tvExpOptdmg70|/tvExpOptDlg>
+      <bDavd2>0</rDave2>
+     $<Pa4hWithFileName>&\ser\s4m3f10x_ãonf.h</PathWitHNileName>
+"     <FilenaleWivhoutPath>stm32f10x_conf.è4/FilenameWithoutPath>
+0     <RteFlg>0¼/RueFlc>
+      <`Shajud>0</bspargd>
+    </File>
+"   <File>
+      <GroupNqm`er>5</GroupNwmber>
+  $   <FiluNõmbeb>61</FileNumber>
+      <FileType>1</FileType>
+    ` <tvEzp>0<+tvE|x>
+ `$   >tvAxpOptDlg>0</uvExpOptDlg>
+      <bDav2¾p/bLafe2>
+    ` <PathWitxfi,eJame>.User\st-32f10x_it.c</PaphWiuhFilåName>
+      <Féle.qmeWithOutPath?stm30f108_it/c</Fil%nameWithoutTath>
+      <RteFlg>08/RteGmg>
+   !( <bShared>0>-bShared>
+    </File>
+  " <Bile>
+ $    <GroupNuiber>5</GroupNumber>
+   (` FilåNtmber>62</FileÎumb5r>
+      <FileType>4</FileType>
+      <pvExp>0¼/tvExP>
+   "  <tvExpOptEhg>0</tvExpOptDlg>      <fDave2>0<.`D#ve2>      <PathWithFileNAme>.\]ser]stm32f10x_it.h</QatlWiuhFileName>
+  (   <FilefameWitioutRath>q4m32&10k_ét.h<'BhlenameWithoutPath:
+      <teFle>0</VteFlg>
+   $  <bShardd0¼/bShared¾ (  </File>
+  </gro}ð>
+</PRojec`Opt>
